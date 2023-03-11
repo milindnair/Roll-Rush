@@ -36,6 +36,27 @@ main {
   display: flex;
 }
 
+.help {
+  position: absolute;
+  top: 0;
+  right: 1;
+  padding: 1rem;
+  font-size:large;  
+  }
+
+.help a{
+  background: linear-gradient(to top left, #753682 0%, #bf2e34 100%); color: #fff;
+  text-decoration: none;
+}
+
+.help a:hover{
+  background: linear-gradient(to top left, #bf2e34 0%, #753682 100%); color: #fff;
+  font-size:larger;
+  text-decoration: none;
+}
+
+
+
 .player {
   flex: 50%;
   padding: 9rem;
@@ -169,3 +190,29 @@ main {
 .hidden {
   display: none;
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 56.25em) {
+  main {
+    width: 90%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  main {
+    width: 90%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  main {
+    width: 90%;
+    height: 80%;
+  }
+}
+
